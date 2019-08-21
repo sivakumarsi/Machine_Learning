@@ -1,6 +1,7 @@
 ## ML program using Decision Tree for classifying gender based on attributes like height, weight,shoe size
 
 from sklearn import tree
+from sklearn.linear_model import LogisticRegression
 
 #[height, weight, shoesize]
 
@@ -14,4 +15,15 @@ clf = clf.fit(X,Y)
 
 prediction = clf.predict([[190,70,43]])
 
-print('Prediction =', prediction)
+print('Prediction using Decision Tree =', prediction)
+
+clf_lr = LogisticRegression()
+clf_lr = clf_lr.fit(X,Y)
+
+prediction_lr = clf_lr.predict([[190,70,43]])
+
+print('Prediction using LogisticRegression =', prediction_lr)
+
+
+
+
