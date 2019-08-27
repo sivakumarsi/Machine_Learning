@@ -1,0 +1,90 @@
+Make Money with Machine Learning - Week 1 - Video 1
+
+How to Create a Machine Learning Portfolio:
+
+#Personal Branding
+ 	
+ 	- Attention  is the new capital
+
+ 	1. Setup a personal website
+
+ 		- Try weebly or choose one no-code website builder tools
+
+ 		- Services I want to offer 
+ 			 - Don't care if you don't have knowledge in that field. It can be learnt.
+
+ 		-Skills I need to learn
+ 			 - Python
+ 			 - ML
+ 			 - Computer Vision
+
+ 		- #VALUES   - Take time to write down your Values . Chooose 1 to 10.
+ 		- #MISSION  - What are you trying to achieve
+
+
+ 	2. Build Social Media Presence
+ 		   - Thats where clients consume.
+ 		   - Twitter 
+ 		        - Don't use hashtags
+ 		        - Follow select peaople you admire.
+ 		   - Facebook
+ 		   		- Great for getting an audience
+ 		   		- Post regularly 
+
+ 		   	- Instagram
+ 		   		- Lots of developers building brand on Instagram
+ 		   		- Memes
+
+ 		   	- Linked-in
+ 		   		- Use hashtags
+
+ 		   	- Youtube
+ 		   	- Reddit
+ 		   		- Follow
+ 		   		    R/Compsci
+ 		   		    R/cscareerquestions
+ 		   		    R/machinelearning
+ 		   		    R/learnmachinelearning
+ 	        Maintain a schecule for regularly post to each of these
+ 	        
+
+ 	        -Github 
+ 	           - The new Resume
+ 	           - Commit history shows progress.	  
+ 	           - 10 great projects to show hirers
+
+
+ 	        - Resume 
+ 	        	- One page
+ 	        	- Have multiple resumes
+ 	        	- Know everything on your resume
+
+ 	        -Networking
+ 	            - Automated discovery - Social media, algorithms bring people.
+ 	            - Physical discovery - Meetups , conferences, hackathons - build trust with people.
+
+
+
+ 	2. Your First Machine learning Application
+
+
+ 			- The Machine Learning Pipeline
+
+ 					- Data Ingestion
+ 					- Data Preparation
+ 					- Model Building and Training
+ 					- Model Deployment
+
+ 			- Model - Collection of weight files
+
+
+ 			- The machine learning App Pipeline  - To make money
+
+ 					- WebApp/website using web framework Flask 
+ 					- Userinterface - HTML/CSS/Javascript
+ 					- Build  a website for the machine learning app and users pay it to use it.
+
+
+ 	3.Build your first web app
+ 			- Install Flask - https://flask.palletsprojects.com/en/1.1.x/installation/ 
+ 			
