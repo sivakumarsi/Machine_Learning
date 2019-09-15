@@ -28,3 +28,39 @@ df = web.DataReader("AAPL", 'yahoo', start, end)
 df.tail()
 
 For the rest of analysis, we will use the Closing Price which remarks the final price in which the stocks are traded by the end of the day.
+
+Exploring Rolling Mean and Return Rate of Stocks
+
+Rolling Mean (Moving Avergae) - constantly updated average price:
+      Useful to cut down “noise” in our price chart
+
+      Moving Average could act as “Resistance” meaning from the downtrend and uptrend of stocks you could expect it will follow the trend and less likely to deviate outside its resistance point
+
+Code:
+
+This will calculate the Moving Average for the last 100 windows (100 days) of stocks closing price and take the average for each of the window’s moving average:
+
+close_px = df['Adj Close']
+mavg = close_px.rolling(window=100).mean()
+
+
+Use Matplotlib for visualisation:
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+from matplotlib import style
+
+# Adjusting the size of matplotlib
+import matplotlib as mpl
+mpl.rc('figure', figsize=(8, 7))
+mpl.__version__
+
+# Adjusting the style of matplotlib
+style.use('ggplot')
+
+close_px.plot(label='AAPL')
+mavg.plot(label='mavg')
+plt.legend()
+
+
+
