@@ -1,0 +1,44 @@
+eek 2 :
+
+Sentiment Analysis
+
+
+Need not develop from scratch. Multiple API's available.
+
+They provide:
+	Sentiment Score
+	Sentiment Lable
+	Confidence Score
+	Custom models
+	Aspect based
+	entity Based
+	Subjectvity
+	magnitude
+	agreement
+	irony detection
+
+
+Approaches to Sentiment Analysis
+
+	Lexicon Based :
+		Dictionary like. Millions of words tagged as positive or negative by linguists. (penn treebank)
+		Can be tweeked
+		Very reliable
+		NLTK  - NLP with Python.
+	Statistical 
+
+
+Sample :
+
+1. User interface ( Page where users can signin and search for sentiments on Keywords)
+
+	a. Go to gituhub and find a FLASK based template, which is highly rated.
+	b. Download the code
+	c. Sign up for developer account on Twitter and get customer key, customer secret, access_token and access_token_secret .
+	d. Plug in the auth codes (above) in the code.
+	e. Call api : tweepy.api to combine all keys.
+	f. add our own route "search", method =post to send data to URL server
+
+
+	Alpaca api - buy trade without commission
+
